@@ -6,3 +6,9 @@ export type FeatureInfoType = {
     title: string;
     desc: string;
 }
+
+export type FooterIconsType = {
+    id: number;
+    icon: string;
+    alt: string;
+}
