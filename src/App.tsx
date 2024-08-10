@@ -4,7 +4,9 @@ const App = () => {
 
     return (
         <div className="w-full ">
-            <Header />
+            <div className={`w-full | bg-primary-dark-purple |  | `}>
+                <Header />
+            </div>
 
             <Hero />
 
