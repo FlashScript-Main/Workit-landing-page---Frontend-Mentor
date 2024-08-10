@@ -3,8 +3,8 @@ import { Features, FlashScript, Footer, Header, Hero, Testimonial,  } from "./co
 const App = () => {
 
     return (
-        <div className="w-full bg-primary-dark-purple grid place-content-center">
-            <Header />
+        <div className="w-full bg-primary-dark-purple">
+                <Header />
 
             <Hero />
 
