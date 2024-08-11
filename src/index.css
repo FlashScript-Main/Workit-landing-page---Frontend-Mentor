@@ -11,6 +11,11 @@
         clip-path: ellipse(100% 85% at 50% 0);
     }
 }
+@media (min-width: 1024px) {
+    .hero {
+        clip-path: ellipse(100% 85% at 50% 0);
+    }
+}
 
 .features {
     clip-path: ellipse(200% 85% at 50% 0);
@@ -24,6 +29,6 @@
 
 @media (min-width: 1024px) {
     .features {
-        clip-path: ellipse(150% 85% at 50% 0);
+        clip-path: ellipse(100% 85% at 50% 0);
     }
 }
