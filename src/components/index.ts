@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import Features from "./Features";
 import Testimonial from "./Testimonial";
 import Footer from "./Footer";
+import Button from "./Button";
 
 export {
     FlashScript,
@@ -11,5 +12,6 @@ export {
     Hero,
     Features,
     Testimonial,
-    Footer
+    Footer,
+    Button
 }
