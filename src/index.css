@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.wave-shape {
-    clip-path: ellipse(200% 85% at 50% 0);
+.hero {
+    clip-path: ellipse(140% 85% at 50% 0);
+}
+
+@media (min-width: 768px) {
+    .hero {
+        clip-path: ellipse(100% 85% at 50% 0);
+    }
 }

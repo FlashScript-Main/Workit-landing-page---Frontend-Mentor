@@ -1,4 +1,4 @@
-import { phoneImage } from "./assets"
+import { heroPatternLeft, heroPatternRight, phoneImage } from "./assets"
 import { Features, FlashScript, Footer, Header, Hero, Testimonial,  } from "./components"
 
 const App = () => {
@@ -15,7 +15,17 @@ const App = () => {
                 <img 
                     src={phoneImage} 
                     alt="Phone Image"
-                    className={`absolute m-auto bottom-0 left-0 right-0 w-72 z-20 |  |  | `}
+                    className={`absolute m-auto -bottom-4 md:-bottom-8 left-0 right-0 w-[18rem] md:w-[22rem] z-20 |  |  | `}
+                />
+
+                <img 
+                    src={heroPatternLeft} 
+                    className={`hidden md:block absolute inset-0 md:-left-[11rem] md:top-[1rem] md:w-[18rem] z-20 |  |  | `}
+                />
+
+                <img 
+                    src={heroPatternRight} 
+                    className={`hidden md:block absolute md:-right-[5.5rem] md:top-[9rem] md:w-[10rem] z-20 |  |  | `}
                 />
             </section>
 
