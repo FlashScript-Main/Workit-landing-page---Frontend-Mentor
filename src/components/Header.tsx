@@ -4,7 +4,7 @@ import { headerAccess } from "../constants"
 const Header = () => {
 
     return (
-        <header className={`container mx-auto py-8 px-6 | | flex justify-between items-center text-neutral-white | `}>
+        <header className={`container mx-auto py-8 md:py-10 px-6  | | flex justify-between items-center text-neutral-white | `}>
             <a href="#">
                 <img 
                     src={logoLight} 
