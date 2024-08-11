@@ -11,3 +11,13 @@
         clip-path: ellipse(100% 85% at 50% 0);
     }
 }
+
+.features {
+    clip-path: ellipse(200% 85% at 50% 0);
+}
+
+@media (min-width: 768px) {
+    .features {
+        clip-path: ellipse(100% 85% at 50% 0);
+    }
+}

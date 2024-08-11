@@ -18,7 +18,7 @@ const featureInfo: FeatureInfoType[] = [
     },
     {
         id: 3, 
-        listNumber: "2",
+        listNumber: "3",
         title: "Always affordable",
         desc: "Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees."
     }
