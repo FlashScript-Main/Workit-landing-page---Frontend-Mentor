@@ -4,7 +4,7 @@ import { footerIcons } from "../constants"
 const Footer = () => {
 
     return (
-        <footer className={`py-16 md:pt-20 |  | flex flex-col justify-center items-center gap-12 | `}>
+        <footer className={`py-16 md:pt-20 lg:pt-28 xl:pt-36 |  | flex flex-col justify-center items-center gap-12 | `}>
             <a href="#">
                 <img 
                     src={logoDark} 
