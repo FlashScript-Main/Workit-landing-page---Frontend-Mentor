@@ -8,7 +8,7 @@ const Features = () => {
                 {featureInfo.map((item) => (
                     <li 
                         key={item.id} 
-                        className={`mb-12 md:mx-auto md:w-[79.9%] |  | flex flex-col md:flex-row lg:flex-col lg:basis-1/3 | `}
+                        className={`mb-12 md:mx-auto md:w-[79.9%] |  | flex flex-col md:flex-row lg:flex-col lg:basis-1/3 | slide-in-left slide-in-left-${item.id}`}
                     >
                         <span className={`${item.id === 1 ? "px-[1.1rem] py-[0.5rem]" : "px-4 py-2"} mx-auto mb-4 md:my-auto | text-xl lg:text-2xl text-primary-dark-purple font-fraunces font-semibold | border border-primary-dark-purple rounded-full grid place-content-center | `}>
                             {item.listNumber}

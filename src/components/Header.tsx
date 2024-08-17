@@ -9,12 +9,13 @@ const Header = () => {
                 <img 
                     src={logoLight} 
                     alt="WorkIt Logo Image" 
+                    className={` |  |  | shutter-in-top`}
                 />
             </a>
 
             <a 
                 href="#"
-                className={`pb-1 | text-[1.1rem] hover:text-primary-eucaplyptus font-manrope font-semibold | border-b-[3px] border-b-primary-eucaplyptus | transition-colors`}
+                className={`pb-1 | text-[1.1rem] hover:text-primary-eucaplyptus font-manrope font-semibold | border-b-[3px] border-b-primary-eucaplyptus | transition-colors shutter-in-top`}
             >
                 {headerAccess}
             </a>
